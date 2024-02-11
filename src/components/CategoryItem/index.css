@@ -1,0 +1,26 @@
+.selected {
+  border-bottom: 2px solid orange;
+  width: 100vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: orange !important;
+  background-color: transparent;
+}
+.not-selected {
+  color: black;
+  border: none;width:50%;
+  background-color: transparent;
+}
+
+@media (min-width: 480px) {
+  .selected {
+    width: 50vw;
+  }
+  .not-selected {
+    width: 50vw;
+  }
+}
+#li {
+  list-style-type: none;
+}
